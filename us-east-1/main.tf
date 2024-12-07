@@ -22,5 +22,6 @@ output "public_subnet_id" {
 }
 
 output "ec2_instance_id" {
-  value = module.ec2.this.id
+  value = module.ec2.instance_id
 }
+

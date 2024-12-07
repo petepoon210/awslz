@@ -39,7 +39,6 @@ resource "aws_instance" "this" {
   tags = { Name = "ubuntu-poc" }
 }
 
-variable "vpc_id" {}
-variable "subnet_id" {}
-variable "ami" {}
-variable "instance_type" {}
+output "instance_id" {
+  value = aws_instance.this.id
+}

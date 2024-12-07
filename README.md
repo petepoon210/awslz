@@ -1,1 +1,3 @@
-# awslz
+<!-- export AWS_ACCESS_KEY_ID=AKIA4MTWKMOPSMX43YMA
+export AWS_SECRET_ACCESS_KEY=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
+export AWS_REGION=us-east-1 -->
